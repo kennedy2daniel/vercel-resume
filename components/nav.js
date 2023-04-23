@@ -42,7 +42,9 @@ export default function Nav() {
       <Box bg={useColorModeValue('gray.100', 'gray.900')} px={4}>
         <Flex h={16} alignItems={'center'} justifyContent={'space-between'}>
           <Box>
-            <strong>dk-resume</strong>.vercel.app
+            <Link href="/">
+              <strong>dk-resume</strong>
+            </Link>
           </Box>
 
           <Flex alignItems={'center'}>
@@ -79,10 +81,10 @@ export default function Nav() {
                   <br />
                   <Center flexDir="column">
                     <p>Daniel Kennedy, II</p>
-                    <addr>
+                    <address>
                       34 Jefferson Drive <br />
                       Monessen, PA 15062
-                    </addr>
+                    </address>
                   </Center>
                   <br />
                   <MenuDivider />

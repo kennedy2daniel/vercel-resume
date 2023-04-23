@@ -24,6 +24,19 @@ export default function Home() {
     <>
       <Nav />
       <Container maxW="700px">
+        <section style={{ marginTop: '2rem', textAlign: 'center' }}>
+          <Text fontSize="3xl">Daniel Kennedy II</Text>
+          {/* <Divider style={{ marginBottom: '2rem' }} /> */}
+          <address>
+            34 Jefferson Drive
+            <br />
+            Monessen, PA 15062
+            <br />
+            909-297-6469
+            <br />
+            kennedy2.daniel@gmail.com
+          </address>
+        </section>
         <section style={{ marginTop: '2rem' }}>
           <Text fontSize="3xl">Summary</Text>
           <Divider style={{ marginBottom: '2rem' }} />
