@@ -126,7 +126,7 @@ export default function Home() {
         <section style={{ marginTop: '2rem' }}>
           <Text fontSize="3xl">Education / Certificates</Text>
           <Divider style={{ marginBottom: '2rem' }} />
-          <Card>
+          <Card border="none" variant="outline">
             <CardBody>
               <ul>
                 <li>
