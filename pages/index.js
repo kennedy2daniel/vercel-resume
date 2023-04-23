@@ -24,7 +24,7 @@ export default function Home() {
     <>
       <Nav />
       <Container maxW="700px">
-        <section style={{ marginTop: '2rem', textAlign: 'center' }}>
+        <section style={{ marginTop: '2rem' }}>
           <Text fontSize="3xl">Daniel Kennedy II</Text>
           {/* <Divider style={{ marginBottom: '2rem' }} /> */}
           <address>
@@ -32,9 +32,11 @@ export default function Home() {
             <br />
             Monessen, PA 15062
             <br />
-            909-297-6469
+            <Link href="tel:9092976469">909-297-6469</Link>
             <br />
-            kennedy2.daniel@gmail.com
+            <Link href="mailto:kennedy2.daniel+vercel-resume@gmail.com">
+              kennedy2.daniel@gmail.com
+            </Link>
           </address>
         </section>
         <section style={{ marginTop: '2rem' }}>

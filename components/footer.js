@@ -52,8 +52,10 @@ export default function Footer() {
       >
         <Text>
           Daniel Kennedy, II &middot;{' '}
-          <Link href="mailto:kennedy2.daniel@gmail.com">Email</Link> &middot;{' '}
-          <Link href="tel:9092976469">909-297-6469</Link>
+          <Link href="mailto:kennedy2.daniel+vercel-resume@gmail.com">
+            Email
+          </Link>{' '}
+          &middot; <Link href="tel:9092976469">909-297-6469</Link>
         </Text>
         <Stack direction={'row'} spacing={6}>
           <SocialButton
