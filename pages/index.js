@@ -18,7 +18,7 @@ import {
 import { Divider, Table } from '@chakra-ui/react';
 import { FaGithub, FaFilePdf } from 'react-icons/fa';
 import { employmentWC, employmentVA } from '../lib/employment';
-
+import Footer from '../components/footer';
 export default function Home() {
   return (
     <>
@@ -139,6 +139,7 @@ export default function Home() {
           </Card>
         </section>
       </Container>
+      <Footer />
     </>
   );
 }

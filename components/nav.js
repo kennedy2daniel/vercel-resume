@@ -42,7 +42,7 @@ export default function Nav() {
       <Box bg={useColorModeValue('gray.100', 'gray.900')} px={4}>
         <Flex h={16} alignItems={'center'} justifyContent={'space-between'}>
           <Box>
-            <strong>Daniel Kennedy, II</strong>
+            <strong>dk-resume</strong>.vercel.app
           </Box>
 
           <Flex alignItems={'center'}>
