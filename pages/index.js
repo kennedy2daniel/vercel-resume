@@ -48,10 +48,12 @@ export default function Home() {
           </p>
 
           <ButtonGroup variant="outline" spacing="6">
-            <Button>
-              <FaFilePdf color="red" style={{ marginRight: '1rem' }} /> Download
-              r&eacute;sum&eacute;
-            </Button>{' '}
+            <Link href="/static/docs/resume-20230423.pdf">
+              <Button>
+                <FaFilePdf color="red" style={{ marginRight: '1rem' }} />{' '}
+                Download r&eacute;sum&eacute;
+              </Button>{' '}
+            </Link>
             &nbsp;
             <Link href="https://github.com/kennedy2daniel" target="_blank">
               <Button>
