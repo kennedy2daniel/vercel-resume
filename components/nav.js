@@ -50,7 +50,7 @@ export default function Nav() {
           <Flex alignItems={'center'}>
             <Stack direction={'row'} spacing={7}>
               <Button onClick={toggleColorMode}>
-                {colorMode === 'light' ? <MoonIcon /> : <SunIcon />}
+                {colorMode === 'dark' ? <SunIcon /> : <MoonIcon />}
               </Button>
 
               <Menu>
