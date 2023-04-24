@@ -43,7 +43,7 @@ export default function Nav() {
         <Flex h={16} alignItems={'center'} justifyContent={'space-between'}>
           <Box>
             <Link href="/">
-              <strong>dk-resume</strong>
+              <strong>dan.sevnth.net</strong>
             </Link>
           </Box>
 
