@@ -21,6 +21,15 @@ import Footer from '../components/footer';
 export default function Home() {
   return (
     <>
+    <Head>
+      <title>Resume: Daniel Kennedy II</title>
+      <meta name="title" content="Resume of Daniel Kennedy II">
+      <meta name="description" content="Professional resume of Daniel Kennedy II, web developer and IT professional.">
+      <meta name="keywords" content="daniel kennedy, react, python, pennsylvania, california, county government">
+      <meta name="robots" content="noindex, nofollow">
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+      <meta name="language" content="English">
+    </Head>
       <Nav />
       <Container maxW="700px">
         <section style={{ marginTop: '2rem' }}>
